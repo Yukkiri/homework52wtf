@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.netodologia.myapplication.MainActivity">
+
+    <item
+        android:id="@+id/action_open_notes"
+        android:orderInCategory="100"
+        android:title="@string/notes"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_subscribe"
+        android:orderInCategory="100"
+        android:title="@string/subscribe"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_photo"
+        android:orderInCategory="100"
+        android:title="@string/photo"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_health"
+        android:orderInCategory="100"
+        android:title="@string/health"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_money"
+        android:orderInCategory="100"
+        android:title="@string/money"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_address"
+        android:orderInCategory="100"
+        android:title="@string/address"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_tasks"
+        android:orderInCategory="100"
+        android:title="@string/tasks"
+        app:showAsAction="never" />
+</menu>

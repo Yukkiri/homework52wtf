@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Меню</string>
+    <string name="notes">Заметки</string>
+    <string name="subscribe">Подписка</string>
+    <string name="photo">Фотографии</string>
+    <string name="health">Мониторинг здоровья</string>
+    <string name="money">Оплата</string>
+    <string name="address">Города</string>
+    <string name="tasks">Планировщик задач</string>
+    <string name="open_notes">Открыть заметки</string>
+    <string name="open_subscribe">Открыть подписку</string>
+    <string name="open_photo">Открыть фото</string>
+    <string name="open_health">Открыть мониторинг здоровья</string>
+    <string name="open_money">Открыть оплату</string>
+    <string name="open_address">Открыть список городов</string>
+    <string name="open_tasks">Открыть планировщик задач</string>
+    <string name="save">Сохранить</string>
+    <string name="note">Type text here</string>
+    <string name="success_save">данные сохранены</string>
+    <string name="ok">ОК</string>
+    <string name="selectStart">Выбрать начало</string>
+    <string name="selectEnd">Выбрать окончание</string>
+    <string name="date_start_placeholder">Дата-время старта задачи: %s</string>
+    <string name="date_end_placeholder">Дата-время конца задачи: %s</string>
+    <string name="output">старт: %1$s окончание: %2$s</string>
+    <string name="error">Ошибка</string>
+    <string name="country">Страна</string>
+    <string name="city">Город</string>
+    <string name="house">Дом</string>
+    <string name="input_money">Ввод денег</string>
+    <string name="info">Информация об оплате</string>
+    <string name="card">С банковской карты</string>
+    <string name="phone">С мобильного телефона</string>
+    <string name="cash">Наличными по адресу</string>
+    <string name="cardPay">Выбрана оплата банковской картой.</string>
+    <string name="phonePay">Выбрана оплата с мобильного телефона.</string>
+    <string name="cashPay">Выбрана оплата наличными.</string>
+    <string name="app_title">Комплексная система\nмониторинга здоровья</string>
+    <string name="author">Пучкова</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="patronymic">Отчество</string>
+    <string name="welcome">Добро пожаловать,\n</string>
+    <string name="age">Возраст</string>
+    <string name="heart_title">Учет кровяного давления</string>
+    <string name="systolic">Систолическое</string>
+    <string name="diastolic">Диастолическое</string>
+    <string name="pulse">Пульс</string>
+    <string name="tachycardia">Тахикардия&#9;&#9;</string>
+    <string name="date">Дата</string>
+    <string name="history">История</string>
+    <string name="incorrecr_date">Некорректно введена дата!</string>
+    <string name="back">Назад</string>
+    <string name="health_title">Жизненные показатели</string>
+    <string name="weight">Вес</string>
+    <string name="steps">Количество шагов</string>
+    <string name="warning">Не все поля заполнены \nили некоторые заполнены некорректно!</string>
+    <string name="forward">Вперед</string>
+    <string name="photo_num">http://myfile.org/</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="mail">Электронная почта</string>
+    <string name="clear">Очистить</string>
+    <string name="result">Подписка на рассылку успешно оформлена для пользователя name на электронный адресс mail</string>
+    <string name="invalid">Вы не ввели имя и почту, рассылка не оформлена.</string>
+    <string name="invalidName">Вы не ввели имя, рассылка не оформлена.</string>
+    <string name="invalidMail">Вы не ввели почту, рассылка не оформлена.</string>
+    <string name="correct">Подписка на рассылку успешно оформлена на пользователя </string>
+    <string name="correctMail"> на электронный адрес </string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Беларусь</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+</resources>

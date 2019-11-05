@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".SubscribeActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/name"
+        android:textColor="@color/aTextColor"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/nameETxt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/okBttn"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:background="@color/buttonColor"
+        android:text="@string/ok"
+        android:textColor="@color/textColors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mailETxt"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <Button
+        android:id="@+id/clearBttn"
+        android:layout_width="190dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/buttonColor"
+        android:text="@string/clear"
+        android:textColor="@color/textColors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/okBttn"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/aTextColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clearBttn"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/mailETxt"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/buttonColor"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <EditText
+        android:id="@+id/nameETxt"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/buttonColor"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColors"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="152dp"
+        android:text="@string/mail"
+        android:textColor="@color/aTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/mailETxt"
+        app:layout_constraintTop_toBottomOf="@+id/nameETxt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
