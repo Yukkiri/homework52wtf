@@ -38,16 +38,16 @@ public class HeartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_heart);
 
 
-        systolic = (EditText) findViewById(R.id.systolic);
-        diastolic = (EditText) findViewById(R.id.diastolic);
-        pulse = (EditText) findViewById(R.id.pulse);
-        date = (EditText) findViewById(R.id.date);
-        tachycardia = (CheckBox) findViewById(R.id.tachycardia);
-        save = (Button) findViewById(R.id.save);
-        history = (Button) findViewById(R.id.history);
-        back = (Button) findViewById(R.id.back);
-        historyView = (TextView) findViewById(R.id.historyView);
-        warning = (TextView) findViewById(R.id.warning);
+        systolic = findViewById(R.id.systolic);
+        diastolic = findViewById(R.id.diastolic);
+        pulse = findViewById(R.id.pulse);
+        date = findViewById(R.id.date);
+        tachycardia = findViewById(R.id.tachycardia);
+        save = findViewById(R.id.save);
+        history = findViewById(R.id.history);
+        back = findViewById(R.id.back);
+        historyView = findViewById(R.id.historyView);
+        warning = findViewById(R.id.warning);
 
         setInitialDateTime();
 

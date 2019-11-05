@@ -39,15 +39,15 @@ public class HealthActivity extends AppCompatActivity {
         userId = intent.getIntExtra("userId", userId);
 
 
-        save = (Button) findViewById(R.id.save);
-        history = (Button) findViewById(R.id.history);
-        back = (Button) findViewById(R.id.back);
-        weight = (EditText) findViewById(R.id.weight);
-        steps = (EditText) findViewById(R.id.steps);
-        date = (EditText) findViewById(R.id.date);
+        save = findViewById(R.id.save);
+        history = findViewById(R.id.history);
+        back = findViewById(R.id.back);
+        weight = findViewById(R.id.weight);
+        steps = findViewById(R.id.steps);
+        date = findViewById(R.id.date);
         dbHelper = new DBHelper(this);
-        historyView = (TextView) findViewById(R.id.historyView);
-        warning = (TextView) findViewById(R.id.warning);
+        historyView = findViewById(R.id.historyView);
+        warning = findViewById(R.id.warning);
 
 
         setInitialDateTime();

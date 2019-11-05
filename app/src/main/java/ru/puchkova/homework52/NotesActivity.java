@@ -20,15 +20,15 @@ public class NotesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_notes);
 
         init();
         getDateFromSharedPref();
     }
 
     private void init(){
-        save = (Button) findViewById(R.id.save);
-        note = (EditText) findViewById(R.id.note);
+        save = findViewById(R.id.save);
+        note = findViewById(R.id.note);
 
         myNoteSharedPref = getSharedPreferences("MyNote", MODE_PRIVATE);
 

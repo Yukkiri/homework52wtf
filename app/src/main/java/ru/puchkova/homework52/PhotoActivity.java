@@ -15,16 +15,15 @@ public class PhotoActivity extends AppCompatActivity {
     TextView photo;
     Button forward;
     Button back;
-    private Object MainActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_photo);
 
-        forward = (Button) findViewById(R.id.forward);
-        back = (Button) findViewById(R.id.back);
-        photo = (TextView) findViewById(R.id.photo);
+        forward = findViewById(R.id.forward);
+        back = findViewById(R.id.back);
+        photo = findViewById(R.id.photo);
 
         Random random = new Random();
         int photoNumber = random.nextInt(100);

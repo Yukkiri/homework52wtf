@@ -21,13 +21,13 @@ public class SubscribeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_subscribe);
 
-        okBttn = (Button) findViewById(R.id.okBttn);
-        clearBttn = (Button) findViewById(R.id.clearBttn);
-        resultTxt = (TextView) findViewById(R.id.resultTxt);
-        nameETxt = (EditText) findViewById(R.id.nameETxt);
-        mailETxt = (EditText) findViewById(R.id.mailETxt);
+        okBttn = findViewById(R.id.okBttn);
+        clearBttn = findViewById(R.id.clearBttn);
+        resultTxt = findViewById(R.id.resultTxt);
+        nameETxt = findViewById(R.id.nameETxt);
+        mailETxt = findViewById(R.id.mailETxt);
 
         View.OnClickListener oclOkBttn = new View.OnClickListener(){
             @Override

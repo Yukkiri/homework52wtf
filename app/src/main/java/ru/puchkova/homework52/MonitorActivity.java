@@ -29,23 +29,22 @@ public class MonitorActivity extends AppCompatActivity {
     TextView welcome, warning;
     DBHelper dbHelper;
     int userId, iAge;
-    boolean flag = true;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_monitor);
 
-        heart = (ImageButton) findViewById(R.id.heart);
-        health = (ImageButton) findViewById(R.id.health);
-        surname = (EditText) findViewById(R.id.surname);
-        name = (EditText) findViewById(R.id.name);
-        patronymic = (EditText) findViewById(R.id.patronymic);
-        age = (EditText) findViewById(R.id.age);
-        save = (Button) findViewById(R.id.save);
-        welcome = (TextView) findViewById(R.id.welcome);
-        warning = (TextView) findViewById(R.id.warning);
+        heart = findViewById(R.id.heart);
+        health = findViewById(R.id.health);
+        surname = findViewById(R.id.surname);
+        name = findViewById(R.id.name);
+        patronymic = findViewById(R.id.patronymic);
+        age = findViewById(R.id.age);
+        save = findViewById(R.id.save);
+        welcome = findViewById(R.id.welcome);
+        warning = findViewById(R.id.warning);
 
 
         dbHelper = new DBHelper(this);
